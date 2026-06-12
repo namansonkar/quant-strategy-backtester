@@ -1,0 +1,16 @@
+{
+  "name": "Equity First Half (NSE)",
+  "source_pdf": "EQUITY FIRST HALF STRATEGY.pdf",
+  "note": "Level approximated as previous day high/low (PDF uses post-14:25 swing level)",
+  "symbols": ["RELIANCE.NS", "ICICIBANK.NS", "BAJAJFINSV.NS", "TVSMOTOR.NS", "TATACONSUM.NS", "APOLLOTYRE.NS", "M&M.NS", "LT.NS"],
+  "interval": "5m",
+  "period_days": 55,
+  "patterns": ["trap_level"],
+  "level_mode": "prev_day_high_low",
+  "session": {"tz": "Asia/Kolkata", "start": "09:15", "end": "11:00"},
+  "max_candle_pct": 1.0,
+  "max_sl_pct": 1.5,
+  "risk_reward": 2.0,
+  "breakeven_at": 0.5,
+  "one_trade_per_day": true
+}

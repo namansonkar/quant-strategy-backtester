@@ -1,0 +1,16 @@
+{
+  "name": "BTC FNP Strategy",
+  "source_pdf": "BTC FNP STRATEGY (1).pdf",
+  "symbols": ["BTC-USD"],
+  "interval": "5m",
+  "period_days": 55,
+  "patterns": ["double_top_bottom", "head_shoulders"],
+  "ema": 200,
+  "near_ema_pct": 0.55,
+  "ema_location": "near",
+  "session": {"tz": "Asia/Kolkata", "start": "10:30", "end": "22:00"},
+  "max_candle_pct": 0.70,
+  "max_sl_pct": 0.90,
+  "risk_reward": 2.0,
+  "breakeven_at": 0.5
+}

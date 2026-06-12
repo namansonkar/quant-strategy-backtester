@@ -1,0 +1,22 @@
+{
+  "name": "BTC PNP Strategy",
+  "source_pdf": "BTC PNP STRATEGY.pdf",
+  "symbols": ["BTC-USD"],
+  "interval": "15m",
+  "period_days": 55,
+  "patterns": ["double_top_bottom", "head_shoulders", "box_breakout"],
+  "ema": 200,
+  "near_ema_pct": 0.55,
+  "pattern_filters": {
+    "double_top_bottom": {"ema_location": "near"},
+    "head_shoulders": {"ema_location": "near"},
+    "box_breakout": {"ema_location": "any"}
+  },
+  "box_hours": 4,
+  "box_pct": 0.55,
+  "session": {"tz": "Asia/Kolkata", "start": "10:30", "end": "22:00", "exclude": [["16:00", "18:00"]]},
+  "max_candle_pct": 0.70,
+  "max_sl_pct": 0.90,
+  "risk_reward": 2.0,
+  "breakeven_at": 0.5
+}
